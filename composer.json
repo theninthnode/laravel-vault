@@ -1,5 +1,5 @@
 {
-    "name": "tokenly/laravel-vault",
+    "name": "theninthnode/laravel-vault",
     "type": "library",
     "description": "A Laravel interface for Hashicorp Vault",
     "keywords": [
@@ -9,6 +9,9 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Billy Jones"
+        },
+        {
             "name": "Devon Weller",
             "email": "devon@tokenly.com",
             "homepage": "https://tokenly.com"
@@ -16,7 +19,7 @@
     ],
     "require": {
         "php" : "~5.6|~7.0",
-        "illuminate/support": "~6",
+        "illuminate/support": "^7.0",
         "jippi/vault-php-sdk": "^3.0"
     },
     "require-dev": {
